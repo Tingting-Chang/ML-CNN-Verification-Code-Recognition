@@ -1,7 +1,7 @@
 # ML-CNN-Verification-Code-Recognition
 This repo is about verification code recognition based on CNN. It introduced a new way to gain training dataset and recognition algorithm based on CNN. 
 
-
+## Introduction
 In general, we should grab the verification codes existed online and add anotation on them then put them into the trianing process. However, this method will bring other problems.
 
 First of all, training dataset will require millions of pictures and it is really difficult to capture so many pictures without getting panalty from websites(where those pictures come from). If our scraper will need one second to capture one verification code picture on one IP address, then we only can get 80,000 pictures in one day. If we get penalty during this time, then it will take longer for us to collection needed pictures. 
@@ -19,5 +19,18 @@ Common features of verification codes including:
 
 Based on the above discussion, we use python to implement a simple verification code. 
 
+## Requirements
 
-[Reference](https://hbaaron.github.io/blog_2017/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AE%9E%E7%8E%B0%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB%EF%BC%88%E4%B8%80%EF%BC%89/)
+```
+Python: 3.6
+opencv: 3.3.0
+PIL: 4.1.1
+```
+
+## Results
+![generated verification code](https://github.com/Tingting-Chang/ML-CNN-Verification-Code-Recognition/blob/master/validate.jpg)
+
+
+## References
+[Reference 1](https://hbaaron.github.io/blog_2017/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AE%9E%E7%8E%B0%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB%EF%BC%88%E4%B8%80%EF%BC%89/)
+[Reference 2](https://www.codeday.top/2017/01/11/21796.html)
